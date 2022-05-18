@@ -454,7 +454,7 @@ enableEmoji = true
       Instapaper = false
       Pocket = false
       Flipboard = false
-      Weibo = true
+      Weibo = false
       Blogger = false
       Baidu = false
       Odnoklassniki = false
@@ -469,7 +469,7 @@ enableEmoji = true
       # Disqus comment config (https://disqus.com/)
       # Disqus 评论系统设置 (https://disqus.com/)
       [params.page.comment.disqus]
-        enable = true
+        enable = false
         # Disqus shortname to use Disqus in posts
         # Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
         shortname = ""
@@ -519,10 +519,10 @@ enableEmoji = true
       # Telegram comments config (https://comments.app/)
       # Telegram comments 评论系统设置 (https://comments.app/)
       [params.page.comment.telegram]
-        enable = false
-        siteID = ""
-        limit = 5
-        height = ""
+        enable = true
+        siteID = "CGP9_A8o"
+        limit = 100
+        height = "auto"
         color = ""
         colorful = true
         dislikes = false
