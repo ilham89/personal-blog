@@ -4,7 +4,7 @@ authorLink = "www.google.com"
 categories = ["kategori"]
 date = 2022-05-17T17:00:00Z
 description = "yeeeeeyeyyy"
-images = [""]
+images = []
 lastmod = 2022-05-17T17:00:00Z
 lightgallery = false
 tags = ["tagss"]
@@ -13,8 +13,8 @@ weight = 10
 [toc]
 auto = true
 [[resources]]
-name = "test"
-src = "hipwee-win1.jpeg"
+name = "testm k k"
+src = "bg-gnng.jpeg"
 
 +++
 ## 1 Simple Content {#simple-content}
