@@ -17,4 +17,6 @@ name = "test"
 src = "/uploads/hipwee-win1.jpeg"
 
 +++
-woiii
+## 1 Simple Content {#simple-content}
+
+Simple content is allowed in `Markdown` format and **without** rich block ngetessss.. 
