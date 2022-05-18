@@ -1,0 +1,8 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Categories - Catégorie - Mon nouveau site Hugo</title>
+        <link>http://example.org/fr/categories/</link>
+        <description>Categories - Catégorie - Mon nouveau site Hugo</description>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><managingEditor>ilhamkukuhprakosa@gmail.com (Ilham Kukuh Prakosa)</managingEditor>
+            <webMaster>ilhamkukuhprakosa@gmail.com (Ilham Kukuh Prakosa)</webMaster><atom:link href="http://example.org/fr/categories/" rel="self" type="application/rss+xml" /></channel>
+</rss>
