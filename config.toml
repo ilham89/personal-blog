@@ -521,8 +521,8 @@ enableEmoji = true
       [params.page.comment.telegram]
         enable = true
         siteID = "CGP9_A8o"
-        limit = 100
-        height = "auto"
+        limit = 5
+        height = "300"
         color = ""
         colorful = true
         dislikes = false
