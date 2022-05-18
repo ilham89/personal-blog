@@ -14,7 +14,7 @@ weight = 10
 auto = true
 [[resources]]
 name = "testm k k"
-src = "hipwee-win1.jpeg"
+src = "bg-gnng.jpeg"
 
 +++
 ## 1 Simple Content {#simple-content}
