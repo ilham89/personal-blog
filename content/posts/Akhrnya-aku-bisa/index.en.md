@@ -14,9 +14,9 @@ weight = 10
 auto = true
 [[resources]]
 name = "test"
-src = "/uploads/hipwee-win1.jpeg"
+src = "hipwee-win1.jpeg"
 
 +++
 ## 1 Simple Content {#simple-content}
 
-Simple content is allowed in `Markdown` format and **without** rich block ngetessss.. 
+Simple content is allowed in `Markdown` format and **without** rich block ngetessss..
