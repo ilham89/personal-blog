@@ -478,7 +478,7 @@ enableEmoji = true
       [params.page.comment.gitalk]
         enable = true
         owner = "ilham89"
-        repo = "https://github.com/ilham89/personal-blog/"
+        repo = "personal-blog"
         clientId = "d765e747fa2bc52599b6"
         clientSecret = "77e0ce6de39a515fb98db64522a68732ff3f1e24"
       # Valine comment config (https://github.com/xCss/Valine)
