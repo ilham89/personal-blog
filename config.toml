@@ -795,8 +795,8 @@ enableEmoji = true
         title = "GitHub"
     [languages.en.params]
       [languages.en.params.search]
-        enable = true
-        type = "algolia"
+        enable = false
+        type = "lunr"
         contentLength = 4000
         placeholder = ""
         maxResultLength = 10
