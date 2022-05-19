@@ -534,11 +534,11 @@ enableEmoji = true
       # Utterances comment config (https://utteranc.es/)
       # Utterances comment 评论系统设置 (https://utteranc.es/)
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
-        repo = ""
+        repo = "https://ilham89/personal-blog"
         issueTerm = "pathname"
-        label = ""
+        label = "Komentar"
         lightTheme = "github-light"
         darkTheme = "github-dark"
     # Third-party library config
