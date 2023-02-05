@@ -52,5 +52,3 @@ fields:
   - type: boolean
     name: auto
     label: auto
-pages:
-- content/posts/cek website/halo-ges.md
