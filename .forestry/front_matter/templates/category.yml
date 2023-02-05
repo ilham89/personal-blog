@@ -7,3 +7,4 @@ fields:
   label: title
 pages:
 - content/categories/react.en.md
+- content/categories/vue.en.md
