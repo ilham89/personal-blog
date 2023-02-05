@@ -1,7 +1,7 @@
 +++
 author = "jokokkoko"
 authorLink = ""
-categories = ["documentation"]
+categories = ["joko ribowo", "documentation"]
 date = 2023-02-04T17:00:00Z
 description = "englishhh"
 images = []
