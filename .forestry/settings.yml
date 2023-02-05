@@ -52,7 +52,7 @@ sections:
   new_doc_ext: zh-cn.md
 upload_dir: static/uploads
 public_path: static/uploads
-front_matter_path: "/content/uploads/:filename"
+front_matter_path: "/content/posts/:filename"
 use_front_matter_path: true
 file_template: ":filename:"
 build:
