@@ -11,17 +11,17 @@ sections:
     path: content/categories
     label: Category
     create: all
-    match: "**/*"
+    match: "**/*.en.md"
   - type: directory
     path: content/tags
     label: Tags
     create: all
-    match: "**/*"
+    match: "**/*.en.md"
   - type: directory
     path: content
     label: Pages
     create: all
-    match: "*"
+    match: "**/*.en.md"
   - type: directory
     path: content/posts
     label: Posts
@@ -36,17 +36,17 @@ sections:
     path: content/categories
     label: Category
     create: all
-    match: "**/*"
+    match: "**/*.zh-cn.md"
   - type: directory
     path: content/tags
     label: Tags
     create: all
-    match: "**/*"
+    match: "**/*.zh-cn.md"
   - type: directory
     path: content
     label: Pages
     create: all
-    match: "*"
+    match: "**/*.zh-cn.md"
   - type: directory
     path: content/posts
     label: Posts
