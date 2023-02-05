@@ -12,11 +12,16 @@ sections:
   create: all
   match: "**/*.en.md"
   new_doc_ext: en.md
+  templates:
+  - categories
 - type: directory
   path: content/tags
   label: Tags
   create: all
   match: "**/*.en.md"
+  new_doc_ext: ".en.md"
+  templates:
+  - docs
 - type: directory
   path: content
   label: Pages
@@ -29,6 +34,8 @@ sections:
   create: all
   match: "**/*.en.md"
   new_doc_ext: en.md
+  templates:
+  - posts
 - type: heading
   label: Chinese
 - type: directory
@@ -36,11 +43,17 @@ sections:
   label: Category
   create: all
   match: "**/*.zh-cn.md"
+  new_doc_ext: ".zh-cn.md"
+  templates:
+  - categories
 - type: directory
   path: content/tags
   label: Tags
   create: all
   match: "**/*.zh-cn.md"
+  new_doc_ext: ".zh-cn.md"
+  templates:
+  - docs
 - type: directory
   path: content
   label: Pages
@@ -51,7 +64,9 @@ sections:
   label: Posts
   create: all
   match: "**/*.zh-cn.md"
-  new_doc_ext: zh-cn.md
+  new_doc_ext: ".zh-cn.md"
+  templates:
+  - posts
 upload_dir: static/uploads
 public_path: static/uploads
 front_matter_path: "/content/posts/:filename"
