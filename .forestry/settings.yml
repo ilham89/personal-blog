@@ -34,8 +34,6 @@ sections:
   create: all
   match: "**/*.en.md"
   new_doc_ext: en.md
-  templates:
-  - posts
 - type: heading
   label: Chinese
 - type: directory
