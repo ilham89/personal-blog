@@ -7,3 +7,4 @@ fields:
   label: title
 pages:
 - content/categories/Markdown/markdown.en.md
+- content/categories/React/react.en.md
