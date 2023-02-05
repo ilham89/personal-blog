@@ -1,58 +1,55 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path:
-webhook_url:
+admin_path: 
+webhook_url: 
 sections:
-  - type: heading
-    label: English
-
-  - type: directory
-    path: content/categories
-    label: Category
-    create: all
-    match: "**/*.en.md"
-  - type: directory
-    path: content/tags
-    label: Tags
-    create: all
-    match: "**/*.en.md"
-  - type: directory
-    path: content
-    label: Pages
-    create: all
-    match: "**/*.en.md"
-  - type: directory
-    path: content/posts
-    label: Posts
-    create: all
-    match: "**/*.en.md"
-    new_doc_ext: en.md
-
-  - type: heading
-    label: Chinese
-
-  - type: directory
-    path: content/categories
-    label: Category
-    create: all
-    match: "**/*.zh-cn.md"
-  - type: directory
-    path: content/tags
-    label: Tags
-    create: all
-    match: "**/*.zh-cn.md"
-  - type: directory
-    path: content
-    label: Pages
-    create: all
-    match: "**/*.zh-cn.md"
-  - type: directory
-    path: content/posts
-    label: Posts
-    create: all
-    match: "**/*.zh-cn.md"
-    new_doc_ext: zh-cn.md
+- type: heading
+  label: English
+- type: directory
+  path: content/categories
+  label: Category
+  create: all
+  match: "**/*.en.md"
+- type: directory
+  path: content/tags
+  label: Tags
+  create: all
+  match: "**/*.en.md"
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "**/*.en.md"
+- type: directory
+  path: content/posts
+  label: Posts
+  create: all
+  match: "**/*.en.md"
+  new_doc_ext: en.md
+- type: heading
+  label: Chinese
+- type: directory
+  path: content/categories
+  label: Category
+  create: all
+  match: "**/*.zh-cn.md"
+- type: directory
+  path: content/tags
+  label: Tags
+  create: all
+  match: "**/*.zh-cn.md"
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "**/*.zh-cn.md"
+- type: directory
+  path: content/posts
+  label: Posts
+  create: all
+  match: "**/*.zh-cn.md"
+  new_doc_ext: zh-cn.md
 upload_dir: static/uploads
 public_path: static/uploads
 front_matter_path: "/content/uploads/:filename"
@@ -60,8 +57,8 @@ use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_env:
-    - HUGO_ENV=staging
-    - HUGO_VERSION=0.81.0
+  - HUGO_ENV=staging
+  - HUGO_VERSION=0.81.0
   preview_output_directory: public
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
