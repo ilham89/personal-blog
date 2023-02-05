@@ -1,9 +1,0 @@
----
-label: Category
-hide_body: true
-fields:
-- type: text
-  name: title
-  label: title
-pages:
-- content/categories/markdown.en.md

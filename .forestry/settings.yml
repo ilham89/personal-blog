@@ -22,7 +22,7 @@ sections:
   label: Pages
   create: all
   match: "**/*.en.md"
-  new_doc_ext: ".en.md"
+  new_doc_ext: en.md
 - type: directory
   path: content/posts
   label: Posts
