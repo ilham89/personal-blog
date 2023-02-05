@@ -5,6 +5,3 @@ fields:
 - type: text
   name: title
   label: title
-pages:
-- content/categories/react.en.md
-- content/categories/vue.en.md
