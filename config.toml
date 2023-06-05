@@ -820,7 +820,7 @@ enableEmoji = true
           disclaimer = "Welcome to my blog"
       [languages.en.params.social]
         GitHub = "https://github.com/ilham89"
-        Linkedin = "https://www.linkedin.com/in/ilham-kukuh-prakosa-6149b91b3/"
+        Linkedin = "https://www.linkedin.com/in/ilham-kukuh-prakosa/"
         Instagram = ""
         Facebook = ""
         Telegram = "https://t.me/ilhamkukuh"

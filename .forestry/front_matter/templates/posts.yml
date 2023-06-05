@@ -52,8 +52,4 @@ fields:
   - type: boolean
     name: auto
     label: auto
-pages:
-- content/posts/Akhirnya-aku-bisa/kokokokokokoko.en.md
-- content/posts/Akhirnya-aku-bisa/kokokokokokoko.en.md
-- content/posts/naming file/dadsd.en.md
-- content/posts/wahyu-ilham/kamu-pasti-panik.en.md
+
